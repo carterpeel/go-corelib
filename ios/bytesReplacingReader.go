@@ -32,9 +32,9 @@ type BytesReplacingReader struct {
 	err               error
 	buf               []byte
 	// buf[0:buf0]: bytes already processed; buf[buf0:buf1] bytes read in but not yet processed.
-	buf0, buf1 int
+	buf0, buf1        int
 	// because we need to replace 'search' with 'replace', this marks the max bytes we can read into buf
-	max int
+	max               int
 }
 
 const defaultBufSize = 4096
@@ -100,7 +100,6 @@ func (r *BytesReplacingReader) Read(p []byte) (int, error) {
 		} else if r.err != nil {
 			return 0, r.err
 		}
-
 		n, r.err = r.r.Read(r.buf[r.buf1:r.max])
 		if n > 0 {
 			r.buf1 += n
