@@ -33,8 +33,10 @@ type BytesReplacingReader struct {
 	buf               []byte
 	// buf[0:buf0]: bytes already processed; buf[buf0:buf1] bytes read in but not yet processed.
 	buf0, buf1        int
-	// because we need to replace 'search' with 'replace', this marks the max bytes we can read into buf
+	// Because we need to replace 'search' with 'replace', this marks the max bytes we can read into buf
 	max               int
+	// Tracks the number of tokens found in the data stream
+	occurrences       int
 }
 
 const defaultBufSize = 4096
@@ -78,6 +80,10 @@ func (r *BytesReplacingReader) ResetEx(r1 io.Reader, replacer BytesReplacer) *By
 	return r
 }
 
+func (r *BytesReplacingReader) GetOccurrences() int {
+	return r.occurrences
+}
+
 // Reset allows reuse of a previous allocated `*BytesReplacingReader` for buf allocation optimization.
 // `search` cannot be nil/empty. `replace` can.
 func (r *BytesReplacingReader) Reset(r1 io.Reader, search1, replace1 []byte) *BytesReplacingReader {
@@ -109,6 +115,7 @@ func (r *BytesReplacingReader) Read(p []byte) (int, error) {
 					r.buf0 = max(r.buf0, r.buf1-r.maxSearchTokenLen+1)
 					break
 				}
+				r.occurrences++
 				searchTokenLen := len(search)
 				if searchTokenLen == 0 {
 					panic("search token cannot be nil/empty")
