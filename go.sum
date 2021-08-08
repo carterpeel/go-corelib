@@ -1,4 +1,3 @@
-github.com/antchfx/xpath v1.1.10/go.mod h1:Yee4kTMuNiPYJ7nSNorELQMr1J33uOpXDMByNYhvtNk=
 github.com/antchfx/xpath v1.2.0 h1:mbwv7co+x0RwgeGAOHdrKy89GvHaGvxxBtPK0uF9Zr8=
 github.com/antchfx/xpath v1.2.0/go.mod h1:i54GszH55fYfBmoZXapTHN8T8tkcHfRgLyVwwqzXNcs=
 github.com/bradleyjkemp/cupaloy v2.3.0+incompatible h1:UafIjBvWQmS9i/xRg+CamMrnLTKNzo+bdmT/oH34c2Y=
@@ -26,8 +25,6 @@ github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/
 github.com/hashicorp/golang-lru v0.5.4 h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=
 github.com/hashicorp/golang-lru v0.5.4/go.mod h1:iADmTwqILo4mZ8BN3D2Q6+9jd8WM5uGBxy+E8yxSoD4=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
-github.com/jf-tech/go-corelib v0.0.15 h1:YiUSTyggfRb8Vz6euLTadkeysT+Fp4Fa4TxynQ/1KEU=
-github.com/jf-tech/go-corelib v0.0.15/go.mod h1:0+Fejzd53JtexKE5VI8I06WiBNATLIURRJgPrv4Yysg=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
 github.com/nxadm/tail v1.4.8 h1:nPr65rt6Y5JFSKQO7qToXr7pePgD6Gwiw05lkbyAQTE=
 github.com/nxadm/tail v1.4.8/go.mod h1:+ncqLTQzXmGhMZNUePPaPqPvBxHAIsmXswZKocGu+AU=
@@ -43,12 +40,10 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
-github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tjarratt/babble v0.0.0-20210505082055-cbca2a4833c1 h1:j8whCiEmvLCXI3scVn+YnklCU8mwJ9ZJ4/DGAKqQbRE=
 github.com/tjarratt/babble v0.0.0-20210505082055-cbca2a4833c1/go.mod h1:O5hBrCGqzfb+8WyY8ico2AyQau7XQwAfEQeEQ5/5V9E=
-github.com/tkuchiki/go-timezone v0.2.0/go.mod h1:b1Ean9v2UXtxSq4TZF0i/TU9NuoWa9hOzOKoGCV2zqY=
 github.com/tkuchiki/go-timezone v0.2.2 h1:MdHR65KwgVTwWFQrota4SKzc4L5EfuH5SdZZGtk/P2Q=
 github.com/tkuchiki/go-timezone v0.2.2/go.mod h1:oFweWxYl35C/s7HMVZXiA19Jr9Y0qJHMaG/J2TES4LY=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
