@@ -1,10 +1,10 @@
 # go-corelib
 
-![CI](https://github.com/carterpeel/go-corelib/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/carterpeel/go-corelib/branch/master/graph/badge.svg)](https://codecov.io/gh/carterpeel/go-corelib)
 [![Go Report Card](https://goreportcard.com/badge/github.com/carterpeel/go-corelib)](https://goreportcard.com/report/github.com/carterpeel/go-corelib)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/carterpeel/go-corelib)](https://pkg.go.dev/github.com/carterpeel/go-corelib)
 
-A Library of Core Data Structures, Algorithms and Functions in Golang
+A Library of Core Data Structures, Algorithms and Functions in Golang (forked from `jf-tech/go-corelib`)
 
-Go Version: 1.12.17
+This fork contains optimizations of the [original package](https://github.com/jf-tech/go-corelib).
+
+Huge thanks go out to [jf-tech](https://github.com/jf-tech) for creating and maintaining the original module.
